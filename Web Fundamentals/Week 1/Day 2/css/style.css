@@ -1,0 +1,16 @@
+li {
+    color: blue;
+}
+.formElement {
+    width: 250px;
+}
+#submitButton {
+    background-color: rgb(0, 128, 0);
+    color: white;
+}
+.formButtons{
+    padding: 15px;
+}
+.info{
+    border: 1px solid black;
+}

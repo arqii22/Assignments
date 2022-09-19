@@ -1,0 +1,36 @@
+* {
+    background: yellow;
+}
+h1 {
+    color: gray;
+    font-size: 250%;
+    text-align: center;
+}
+.top {
+    height: 200px;
+    display: flex;
+    background: hotpink;
+    padding: 25px;
+    justify-content: space-around;
+    margin: 15px;
+}
+.middle {
+    height: 200px;
+    display: flex;
+    background: blueviolet;
+    padding: 25px;
+    justify-content: space-around;
+    margin: 15px;
+}
+.bottom {
+    height: 200px;
+    display: flex;
+    background: blue;
+    padding: 25px;
+    justify-content: space-around;
+    margin: 15px;
+}
+h4{
+    color: gray;
+    text-align: center;
+}
