@@ -1,0 +1,26 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    color: white;
+    padding: 10px 40px;
+}
+
+.navigationCities{
+    display: flex;
+}
+
+.city{
+    margin-left: 20px;
+}
+
+.currentCity{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    border-bottom: 2px solid black;
+}

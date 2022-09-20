@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+#feed {
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+#avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:fit-content;
+    gap: 1em;
+}
+
+.avatar,.names {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 15px;
+}
+
+img {
+    width: 60px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgba(255, 225, 0, 0.631);
+    padding: 5px;
+}
