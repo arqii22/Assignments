@@ -14,13 +14,13 @@
             Dojo Weather
         </h1>
         <div class="navigationCities">
-            <p class="city">
+            <p class="city" onclick="loadingCityInformation(this)">
                 Burbank
             </p>
-            <p class="city">
+            <p class="city" onclick="loadingCityInformation(this)">
                 Chicago
             </p>
-            <p class="city">
+            <p class="city" onclick="loadingCityInformation(this)">
                 Dallas
             </p>
         </div>
@@ -34,14 +34,88 @@
                 <span>
                     show temperature in
                 </span>
-                <select class="currentTemperature">
+                <select class="currentTemperature" onchange="changeTemperature(this)">
                     <option value="cel">
-                        C
+                        C°
                     </option>
                     <option value="far">
-                        F
+                        F°
                     </option>
                 </select>
+            </div>
+        </div>
+        <div class="weatherByDay">
+            <div class="dayOfWeek">
+                <h3 class="dayTitle">
+                    Today
+                </h3>
+                <div class="dayImage">
+                    <img src="./assets/some_rain.png" alt="some rain">
+                </div>
+                <div class="weatherStatus">
+                    some rain
+                </div>
+                <div class="maxMinTemperature">
+                    <span class="max">24</span>
+                    <span class="min">18</span>
+                </div>
+            </div>
+            <div class="dayOfWeek">
+                <h3 class="dayTitle">
+                    Tomorrow
+                </h3>
+                <div class="dayImage">
+                    <img src="./assets/some_sun.png" alt="some sun">
+                </div>
+                <div class="weatherStatus">
+                    some sun
+                </div>
+                <div class="maxMinTemperature">
+                    <span class="max">27</span>
+                    <span class="min">19</span>
+                </div>
+            </div>
+            <div class="dayOfWeek">
+                <h3 class="dayTitle">
+                    Friday
+                </h3>
+                <div class="dayImage">
+                    <img src="./assets/some_clouds.png" alt="some clouds">
+                </div>
+                <div class="weatherStatus">
+                    some clouds
+                </div>
+                <div class="maxMinTemperature">
+                    <span class="max">21</span>
+                    <span class="min">16</span>
+                </div>
+            </div>
+            <div class="dayOfWeek">
+                <h3 class="dayTitle">
+                    Saturday
+                </h3>
+                <div class="dayImage">
+                    <img src="./assets/some_sun.png" alt="some sun">
+                </div>
+                <div class="weatherStatus">
+                    some sun
+                </div>
+                <div class="maxMinTemperature">
+                    <span class="max">26</span>
+                    <span class="min">21</span>
+                </div>
+            </div>
+        </div>
+        <div class="cookiePolicy">
+            <div class="cookieImage">
+                <img src="./assets/cookie.png" alt="Cookie Image">
+            </div>
+            <div class="cookieContent">
+                <h3> Stop! Cookie time</h3>
+                <p> We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read More...</a></p>
+            </div>
+            <div class="cookieAccept">
+                <button onclick="removeCookie(this)"> I Accept </button>
             </div>
         </div>
     </main>

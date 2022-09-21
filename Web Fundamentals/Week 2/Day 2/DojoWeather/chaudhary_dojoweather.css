@@ -24,3 +24,65 @@ nav{
     margin: 10px 40px;
     border-bottom: 2px solid black;
 }
+
+.weatherByDay{
+    display: flex;
+    margin: 10px 40px;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.dayOfWeek{
+    background-color: lightgray;
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.dayImage > img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+.maxMinTemperature{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.max{
+    color: red;
+}
+
+.min{
+    color: blue;
+}
+
+.max::after, .min::after{
+    content: "°";
+}
+
+.cookiePolicy{
+    display: flex;
+    border: 2px solid black;
+    margin: 10px 40px;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    background-color: white;
+}
+
+.cookieImage, .cookieAccept{
+    flex: 1;
+}
+
+.cookieImage > img{
+    width: 80%;
+}
+
+.cookieContent{
+    flex: 4;
+}
+
+.cookieAccept > button{
+    background-color: aqua;
+}
